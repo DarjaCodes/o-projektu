@@ -1,0 +1,19 @@
+* {
+  position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#bg {
+  height: 100vw;
+  width: 100vw;
+  background-color: #333232;
+  /* clip-path: polygon(50% 0%, 100% 0, 100% 60%, 0 100%, 0 0); */
+  position: absolute;
+  z-index: -1;
+  color: aliceblue;
+}
+
+
+.row {
+  margin-top: 5%;
+}
