@@ -1,0 +1,87 @@
+/* MEDAJLONEK DARJA */
+
+.medajlonky {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  /* margin-top: 12%; */
+}
+
+.medajlonek1 {
+  /* border: solid 2px black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* height: 50vh; */
+  justify-content: space-between;
+  /* max-width: 60%; */
+  min-width: 50%;
+
+}
+
+
+.darja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.darja__nadpis {
+  margin-bottom: 10%;
+  color: white;
+}
+
+.rounded-start-pill {
+  width: 35%;
+
+}
+
+.about1 {
+  /* padding-left: 6%; */
+  max-width: 60%;
+  max-height: 100%;
+  font-size: 14px;
+  color: white;
+
+}
+
+/* MEDAJLONEK KATEŘINA */
+.medajlonek2 {
+  /* border: solid 2px white; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* height: 50vh; */
+  justify-content: space-between;
+  margin-top: 25%;
+  /* max-width: 60%; */
+  min-width: 50%;
+}
+
+
+
+.rounded-end-pill {
+  width: 35%;
+}
+
+.katerina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.katerina__nadpis {
+  margin-bottom: 10%;
+  color: white;
+}
+
+.about2 {
+  /* padding-right: 6%; */
+  max-width: 60%;
+  max-height: 100%;
+  font-size: 14px;
+  color: white;
+  flex-shrink: 2;
+  text-align: start;
+}
