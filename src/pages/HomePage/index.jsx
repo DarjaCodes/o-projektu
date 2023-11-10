@@ -1,8 +1,7 @@
 import './style.css';
-import { Menu } from '../../Menu';
-import { Carousel } from '../../Carousel';
-import { Article } from '../../Article';
-import { AboutUs } from '../AboutUs';
+import { Menu } from '../../components/Menu';
+import { Carousel } from '../../components/Carousel';
+import { Article } from '../../components/Article';
 
 export const HomePage = () => {
   return (
