@@ -10,10 +10,10 @@ export const Carousel = () => {
   return (
     <div id="carousel" className="carousel carousel-dark slide">
       <div className="carousel-inner">
-        <div className={`carousel-item ${index === 0 ? 'active' : null}`}>
+        <div className={`carousel-item ${index === 0 ? 'active' : ' '}`}>
           <img src={Slide1} className="d-block w-100" alt="slide1" />
         </div>
-        <div className={`carousel-item ${index === 1 ? 'active' : null}`}>
+        <div className={`carousel-item ${index === 1 ? 'active' : ' '}`}>
           <img src={Slide2} className="d-block w-100" alt="slide2" />
         </div>
       </div>
