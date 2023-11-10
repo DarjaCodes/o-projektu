@@ -1,38 +1,39 @@
 import '../HomePage/style.css';
-import '../AboutUs/style.css';
+import './style.css';
 
 export const AboutProject = () => {
   return (
-    <div className="medajlonky">
-      <div className="medajlonek1">
-        <div className="darja">
-          <h2 className="darja__nadpis">Darja Krjuková</h2>
-          <p className="about1">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto,
-            minus est! Laudantium exercitationem distinctio consequuntur hic
-            dicta esse aspernatur iste earum voluptates ducimus voluptatibus
-            magnam, ipsa possimus vel excepturi iusto?Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Et ratione corporis animi cumque ipsa
-            quae, facere deleniti voluptatum! Error qui consectetur odit id et
-            architecto velit ut odio numquam.
+    <div className="texts">
+      <div className="text1">
+        <div className="text1__container">
+          <h2 className="text1__heading">O co jde?</h2>
+          <p className="text1__about">
+            Od začátku jsme chtěly pracovat na projektu, který by měl hlubší
+            smysl a sociální přesah. Dlouho jsme hledaly to "pravé", až do do
+            doby, kdy se Darja díky své práci v neziskovce dostala do kontaktu s
+            fotografkou Julií Dobryninovou, která zrovna plánovala udělat
+            fotografický projekt, který by poukazoval na problém ukrajinských
+            válečných uprchlic pracujících pod svou původní kvalifikaci. Juliin
+            nápad se nám moc líbil, a tak jsme se domluvily, že jí k němu
+            vytvoříme web, který bude sloužit i jako nástroj k osvětě. Zahájení
+            výstavy se plánuje na půlku prosince, takže máme co dělat, aby
+            návštěvníci po oskenování kódu neviděli na svých telefonech jen
+            smutný text s chybou 404..
           </p>
         </div>
       </div>
-      <div className="medajlonek2">
-        <div className="katerina">
-          <h2 className="katerina__nadpis">Kateřina Trnková</h2>
-          <p className="about2">
-            Jsem vystudovaná kulturoložka, která po studiích odjela za
-            dobrodružstvím do Brazílie. Když jsem se po třech letech vrátila
-            zpět do Prahy, tak jsem zjistila, že počet kulturologů na trhu práce
-            předčí o 100% poptávku po těchto profesionálech. Začala jsem tedy
-            pracovat v technologické firmě na zákaznickém servisu, kde jsem
-            vydržela doteď. Akademii jsem začala s nulovou znalostí IT, takže je
-            to pro mě velká výzva a téměř denodenní přísun kvanta nových
-            informací, jejichž zpracování trvá mému mozku déle, než by bylo
-            potřeba. Hlavu si nejraději větrám při běhání, čtení a procházkách
-            se svým psem. A samozřejmě jako každý správný mileniál, miluju
-            cestování 🌄
+      <div className="text2">
+        <div className="text2__container">
+          <h2 className="text2__heading">Co to bude?</h2>
+          <p className="text2__about">
+            Rády bychom se zaměřily na design a hezké zobrazování fotek pomocí
+            animace. Web by měl být designován jako mobile first, jelikož
+            předpokládáme, že díky QR kódu na výstavě si lidé budou náš web
+            otevírat především na svých telefonech. Naší ambicí je si vytvořit
+            lokální API, kam by sama fotografka mohla vkládat fotky na web.
+            Výstava bude zřejmě putovní, takže práce na webu Galavečerem
+            rozhodně nekončí. Těšíme se na celý vývoj a na práci na reálné
+            zakázce.
           </p>
         </div>
       </div>

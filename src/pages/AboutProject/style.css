@@ -1,6 +1,6 @@
-/* MEDAJLONEK DARJA */
+/* O CO JDE?*/
 
-.medajlonky {
+.texts {
 
   display: flex;
   flex-direction: row;
@@ -9,8 +9,7 @@
     /* margin-top: 12%; */
 }
 
-.medajlonek1 {
-  /* border: solid 2px black; */
+.text1 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -22,23 +21,20 @@
 }
 
 
-.darja {
+.text1__container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.darja__nadpis {
+.text1__heading {
   margin-bottom: 10%;
   color: white;
 }
 
-.rounded-start-pill {
-  width: 35%;
 
-}
 
-.about1 {
+.text1__about {
   /* padding-left: 6%; */
   max-width: 60%;
   max-height: 100%;
@@ -47,9 +43,8 @@
 
 }
 
-/* MEDAJLONEK KATEŘINA */
-.medajlonek2 {
-  /* border: solid 2px white; */
+/* CO TO BUDE? */
+.text2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -62,22 +57,18 @@
 
 
 
-.rounded-end-pill {
-  width: 35%;
-}
-
-.katerina {
+.text2__container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.katerina__nadpis {
+.text2__heading {
   margin-bottom: 10%;
   color: white;
 }
 
-.about2 {
+.text2__about {
   /* padding-right: 6%; */
   max-width: 60%;
   max-height: 100%;
