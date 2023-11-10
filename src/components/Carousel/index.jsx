@@ -8,7 +8,7 @@ export const Carousel = () => {
   const [index, setSlide] = useState(0);
 
   return (
-    <div id="carousel" className="carousel slide">
+    <div id="carousel" className="carousel carousel-dark slide">
       <div className="carousel-inner">
         <div className={`carousel-item ${index === 0 ? 'active' : null}`}>
           <img src={Slide1} className="d-block w-100" alt="slide1" />
@@ -20,7 +20,7 @@ export const Carousel = () => {
       <button
         className="carousel-control-prev"
         type="button"
-        data-bs-target="#carousel"
+        data-bs-target="#carouselExampleDark"
         data-bs-slide="prev"
         onClick={() => setSlide(index - 1)}
         disabled={index === 0}
@@ -31,7 +31,7 @@ export const Carousel = () => {
       <button
         className="carousel-control-next"
         type="button"
-        data-bs-target="#carousel"
+        data-bs-target="#carouselExampleDark"
         data-bs-slide="next"
         onClick={() => setSlide(index + 1)}
         disabled={index === slides.length - 1}
