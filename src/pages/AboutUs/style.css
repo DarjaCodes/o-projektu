@@ -1,6 +1,7 @@
 /* MEDAJLONEK DARJA */
 
 .medajlonky {
+  font-family: 'Libre Baskerville';
 
   display: flex;
   flex-direction: row;
@@ -47,6 +48,19 @@
 
 }
 
+/* LOGO GITHUB DARJA */
+.github1 {
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+  color: black;
+}
+
+.github1__ref {
+  width: 11%;
+
+}
+
 /* MEDAJLONEK KATEŘINA */
 .medajlonek2 {
   /* border: solid 2px white; */
@@ -85,4 +99,18 @@
   color: white;
   flex-shrink: 2;
   text-align: start;
+}
+
+/* LOGO GITHUB KATERINA */
+.github2 {
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+  color: black;
+
+}
+
+.github2__ref {
+  width: 11%;
+
 }
