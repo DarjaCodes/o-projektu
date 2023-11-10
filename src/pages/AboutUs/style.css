@@ -1,11 +1,12 @@
 /* MEDAJLONEK DARJA */
 
 .medajlonky {
+
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
-  /* margin-top: 12%; */
+  background-color: #333232
+    /* margin-top: 12%; */
 }
 
 .medajlonek1 {
