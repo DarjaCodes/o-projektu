@@ -6,11 +6,14 @@ import { App } from '../src/pages/app';
 
 import './global.css';
 import '../src/pages/HomePage/style.css';
+import { AboutProject } from './pages/AboutProject';
+import { ErrorPage } from './components/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: 'onas',
@@ -20,10 +23,11 @@ const router = createBrowserRouter([
         path: 'home',
         element: <HomePage />,
       },
-      // {
-      //   path: '/oprojektu',
-      //   element: <Contact />,
-      // },
+      { path: '', element: <HomePage /> },
+      {
+        path: 'oprojektu',
+        element: <AboutProject />,
+      },
     ],
   },
 ]);

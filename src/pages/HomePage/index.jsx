@@ -7,7 +7,6 @@ export const HomePage = () => {
   return (
     <div id="bg">
       <Carousel />
-
       <Article />
     </div>
   );

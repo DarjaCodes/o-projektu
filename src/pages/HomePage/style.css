@@ -1,6 +1,8 @@
 * {
   position: relative;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1rem;
+  background-color: #333232;
 }
 
 #bg {
@@ -8,13 +10,17 @@
   width: 100vw;
   background-color: #333232;
   position: absolute;
-  z-index: -1;
   color: aliceblue;
 }
 
+#carousel {
+  width: 70%;
+  margin-left: 15%;
+}
 
 .row {
-  margin-top: 5%;
+  margin-top: 2%;
+  margin-left: 20%;
 }
 
 .navbar-nav {
@@ -32,5 +38,10 @@
 }
 
 .footer {
+  text-align: center;
+}
+
+.error_page {
+  color: aliceblue;
   text-align: center;
 }
