@@ -10,13 +10,15 @@ export const AboutUs = () => {
         <div className="darja">
           <h2 className="darja__nadpis">Darja Krjuková</h2>
           <p className="about1">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto,
-            minus est! Laudantium exercitationem distinctio consequuntur hic
-            dicta esse aspernatur iste earum voluptates ducimus voluptatibus
-            magnam, ipsa possimus vel excepturi iusto?Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Et ratione corporis animi cumque ipsa
-            quae, facere deleniti voluptatum! Error qui consectetur odit id et
-            architecto velit ut odio numquam.
+            Měla jsem být překladatelkou, ale osud mě zavál do marketingu a
+            následně i k webu. Moje cesta do IT začala jednoduchou dětskou
+            otázkou. Pracovala jsem několik let v digitálním marketingu a
+            ponořovala se do světa produktového obsahu, než jsem si nakonec
+            řekla: „A jak vlastně funguje ten web?“ Od té chvíle začalo pátrání,
+            neutichající zájem a nakonec i splnění snu - přijetí na Akademii.
+            Pořád mě to baví a mám silné tušení, že mě to jen tak nepustí.
+            Stejně tak jako joga, výhledy z kopců a především radost, když mám
+            po svém boku svoji dcerku.
           </p>
           <p className="github1">
             GitHub

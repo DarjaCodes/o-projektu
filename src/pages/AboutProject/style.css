@@ -1,7 +1,6 @@
 /* O CO JDE?*/
 
 .texts {
-
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -76,4 +75,8 @@
   color: white;
   flex-shrink: 2;
   text-align: start;
+}
+
+.footer {
+  margin-top: 40%;
 }

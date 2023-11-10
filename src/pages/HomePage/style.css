@@ -1,15 +1,13 @@
 * {
-  position: relative;
-  font-family: 'Libre Baskerville';
 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: #333232;
 }
 
 #bg {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   background-color: #333232;
-  position: absolute;
   color: aliceblue;
 }
 
