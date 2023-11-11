@@ -1,6 +1,6 @@
 import './style.css';
-import FotoK from './img/fotoK.jpg';
-import FotoD from './img/fotoD.jpg';
+import FotoK from './img/fotkak.jpg';
+import FotoD from './img/fotkad.jpg';
 import Github from './img/github.png';
 
 export const AboutUs = () => {
