@@ -1,6 +1,6 @@
 import './style.css';
-import Foto1 from './img/fotoK.jpg';
-import Foto2 from './img/fotoD.jpeg';
+import FotoK from './img/fotoK.jpg';
+import FotoD from './img/fotoD.jpg';
 import Github from './img/github.png';
 
 export const AboutUs = () => {
@@ -29,10 +29,10 @@ export const AboutUs = () => {
             </p>
           </div>
         </div>
-        <img src={Foto2} className="rounded-start-pill" alt="fotoKat"></img>
+        <img src={FotoD} className="rounded-start-pill" alt="fotoKat"></img>
       </div>
       <div className="medajlonek2">
-        <img src={Foto1} className="rounded-end-pill" alt="FotoDarj"></img>
+        <img src={FotoK} className="rounded-end-pill" alt="FotoDarj"></img>
         <div className="katerina">
           <h2 className="katerina__nadpis">Kateřina Trnková</h2>
           <div className="about2">
